@@ -4,8 +4,8 @@ using UnityEngine;
 using UnityEngine.UI;
 public class AutoCenter : MonoBehaviour
 {
-    public Canvas cancan;
-    public Camera cam;
+    private Canvas cancan;
+    private Camera cam;
     // Start is called before the first frame update
     void Start()
     {

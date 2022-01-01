@@ -2,26 +2,34 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SaveSystem : MonoBehaviour
+public static class SaveSystem
 {
+    public static int honey = 5;
+    public static int tulipRoots = 5;
+    public static int whiteRoots = 5;
+    public static int brandy = 5;
+    public static int racoonGrease = 5;
+    public static int anemoneSeeds = 5;
 
-    // Start is called before the first frame update
-    void Start()
+    public static int GetInventoryLevel(string name)
     {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
-    public int GetInventoryLevel(string name)
-    {
-      // switch (name)
-      // {
-      // }
-      return 0;
+      switch (name)
+      {
+        case "honey":
+          return honey;
+        case "tulipRoots":
+          return tulipRoots;
+        case "whiteRoots":
+          return whiteRoots;
+        case "brandy":
+          return brandy;
+        case "racoonGrease":
+          return racoonGrease;
+        case "anemoneSeeds":
+          return anemoneSeeds;
+        default:
+          Debug.Log("REEEEEE");
+          return 0;
+      }
     }
 }

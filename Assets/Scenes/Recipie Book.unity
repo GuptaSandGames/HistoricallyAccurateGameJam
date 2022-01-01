@@ -2468,8 +2468,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05542e631311c0543bbbb3b2e7cb82d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cancan: {fileID: 0}
-  cam: {fileID: 0}
 --- !u!114 &1347094480
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2482,6 +2480,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6715b1322f929fa478301c1e2d0ca524, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  honeyTxt: {fileID: 1644171952}
+  tulipRootsTxt: {fileID: 2056956045}
+  whiteRootsTxt: {fileID: 764416545}
+  brandyTxt: {fileID: 477259531}
+  racoonGreaseTxt: {fileID: 670019359}
+  anemoneSeedsTxt: {fileID: 1604302894}
 --- !u!1 &1543453428
 GameObject:
   m_ObjectHideFlags: 0

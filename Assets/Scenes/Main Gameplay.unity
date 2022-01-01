@@ -2318,7 +2318,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   horizontal: 0
   vertical: 0
-  runSpeed: 20
+  runSpeed: 5.02
 --- !u!50 &1263007080
 Rigidbody2D:
   serializedVersion: 4
@@ -2339,7 +2339,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 7
+  m_Constraints: 4
 --- !u!61 &1263007081
 BoxCollider2D:
   m_ObjectHideFlags: 0

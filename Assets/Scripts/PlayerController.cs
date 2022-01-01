@@ -2,11 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerMove : MonoBehaviour{
+public class PlayerController : MonoBehaviour{
   Rigidbody2D body;
 
-  float horizontal;
-  float vertical;
+  public float horizontal;
+  public float vertical;
   public float runSpeed = 5000.0f;
 
   void Start ()

@@ -100,7 +100,7 @@ MonoBehaviour:
   - id: 1
     fields:
     - title: Title
-      value: 1st fever convorsation
+      value: Fever Interaction 1
       type: 0
       typeString: 
     - title: Description
@@ -164,7 +164,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: I came as soon as I could, how can I help?
+        value: I came as soon as I could, what can I do to help?
         type: 0
         typeString: 
       - title: Sequence
@@ -192,8 +192,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 51
-        y: 30
+        x: 130
+        y: 36
         width: 160
         height: 30
     - id: 1
@@ -219,7 +219,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: My son is ill can you please help him?
+        value: My son he is Ill is there anything that you can do to help him?
         type: 0
         typeString: 
       - title: Sequence
@@ -247,8 +247,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 55
-        y: 91
+        x: 130
+        y: 86
         width: 160
         height: 30
     - id: 2
@@ -302,8 +302,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 54
-        y: 153
+        x: 130
+        y: 136
         width: 160
         height: 30
     - id: 3
@@ -329,7 +329,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: I think that he has a fever.
+        value: He has a fever. Can you help?
         type: 0
         typeString: 
       - title: Sequence
@@ -357,8 +357,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 54
-        y: 219
+        x: 130
+        y: 186
         width: 160
         height: 30
     - id: 4
@@ -384,7 +384,63 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Let me go make a remedy, I will be back soon.
+        value: I should be able to, Ill need a little time to prepare the remedy
+          though.
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 1
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 1
+        originDialogueID: 4
+        destinationConversationID: 1
+        destinationDialogueID: 5
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 130
+        y: 236
+        width: 160
+        height: 30
+    - id: 5
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Thank you so much.
         type: 0
         typeString: 
       - title: Sequence
@@ -406,8 +462,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 57
-        y: 292
+        x: 130
+        y: 286
         width: 160
         height: 30
     entryGroups: []

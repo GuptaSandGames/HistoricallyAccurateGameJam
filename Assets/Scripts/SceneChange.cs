@@ -1,18 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class SceneChange : MonoBehaviour
-{
-    // Start is called before the first frame update
-    void Start()
+public class SceneChange : MonoBehaviour{
+  [SerializeField] private string nextScene;
+
+  void OnTriggerEnter2D(Collider2D other)
+  {
+    if(other.CompareTag("Player"))
     {
-
+      SceneManager.LoadScene(nextScene);
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
+  }
 }

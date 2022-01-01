@@ -551,6 +551,7 @@ GameObject:
   - component: {fileID: 2010969363}
   - component: {fileID: 2010969362}
   - component: {fileID: 2010969361}
+  - component: {fileID: 2010969364}
   m_Layer: 0
   m_Name: table (1)
   m_TagString: Untagged
@@ -649,6 +650,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -89.957}
+--- !u!114 &2010969364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2010969360}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97934c3bcb052b64ca17286230e25684, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextScene: Recipie Book
 --- !u!1 &2104337507
 GameObject:
   m_ObjectHideFlags: 0

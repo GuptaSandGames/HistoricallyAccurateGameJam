@@ -9737,6 +9737,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1440709824}
   - component: {fileID: 1440709823}
+  - component: {fileID: 1440709826}
   - component: {fileID: 1440709825}
   m_Layer: 0
   m_Name: IMG_0694_0
@@ -9810,8 +9811,8 @@ Transform:
   m_Father: {fileID: 1634804971}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &1440709825
-PolygonCollider2D:
+--- !u!61 &1440709825
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -9833,19 +9834,22 @@ PolygonCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: 0.5503546, y: 1.9697757}
-      - {x: -0.7432201, y: 1.8940783}
-      - {x: -1.5613732, y: 1.5256882}
-      - {x: -1.9587545, y: 0.8136673}
-      - {x: -1.9791534, y: -1.2006845}
-      - {x: -1.8330753, y: -1.801146}
-      - {x: -0.8932731, y: -2.0049546}
-      - {x: 0.909955, y: -2.0514586}
-      - {x: 1.9587541, y: -1.7652378}
-      - {x: 1.833075, y: 1.0584254}
-      - {x: 1.2958088, y: 1.6754675}
+  serializedVersion: 2
+  m_Size: {x: 4.3125, y: 4.5}
+  m_EdgeRadius: 0
+--- !u!114 &1440709826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1440709822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97934c3bcb052b64ca17286230e25684, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextScene: Healers Hut
 --- !u!1 &1573996218
 GameObject:
   m_ObjectHideFlags: 0

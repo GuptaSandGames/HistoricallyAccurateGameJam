@@ -29,6 +29,7 @@ ExportedObj/
 *.mdb
 *.opendb
 *.VC.db
+*.log
 
 # Unity3D generated meta files
 *.pidb.meta
@@ -44,10 +45,6 @@ sysinfo.txt
 
 # Crashlytics generated file
 crashlytics-build.properties
-*.log
+
 Logs/shadercompiler-UnityShaderCompiler.exe0.log
-Logs/shadercompiler-UnityShaderCompiler.exe0.log
-Logs/shadercompiler-UnityShaderCompiler.exe0.log
-*.log
-Logs/AssetImportWorker0.log
 Logs/AssetImportWorker0.log

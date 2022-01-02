@@ -13,9 +13,15 @@ public class SceneChange : MonoBehaviour {
       SceneManager.LoadScene(nextScene);
       if(nextScene =="Healers Hut") {
         Vector3 pos = other.gameObject.transform.position + new Vector3 (0f,-1f,0f);
-        SaveSystem.SetValue("x",pos.x);
-        SaveSystem.SetValue("y",pos.y);
-        SaveSystem.SetValue("z",pos.z);
+        SaveSystem.AddPositon(pos);
+      }
+      if(nextScene == "Recipie Book") {
+        Vector3 pos = other.gameObject.transform.position + new Vector3 (0f,-1f,0f);
+        SaveSystem.AddPositon(pos);
+      }
+      if(nextScene =="Crafting") {
+        Vector3 pos = other.gameObject.transform.position + new Vector3 (1f,0f,0f);
+        SaveSystem.AddPositon(pos);
       }
     }
   }

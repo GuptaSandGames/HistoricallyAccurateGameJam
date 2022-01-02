@@ -22,7 +22,7 @@ public class PlayerController : MonoBehaviour
 
   void Awake () {
     if (SceneManager.GetActiveScene().name == "Main Gameplay") {
-      Vector3 pos = new Vector3(SaveSystem.GetInventoryLevel("x"),SaveSystem.GetInventoryLevel("y"),SaveSystem.GetInventoryLevel("z"));
+      Vector3 pos = SaveSystem.GetLastPosition();
       gameObject.transform.position = pos;
     }
   }

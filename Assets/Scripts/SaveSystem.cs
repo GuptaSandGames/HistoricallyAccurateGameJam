@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public static class SaveSystem
 {
     public static int honey = 5;
@@ -13,7 +14,9 @@ public static class SaveSystem
     public static int feverRemedy = 0;
     public static int toothachRemedy = 0;
     public static int gashRemedy = 0;
-    public static Vector3 player = new Vector3(0f,-6f,0f);
+    public static List<Vector3> player = new List<Vector3>() {
+      new Vector3(0f,-6f,0f)
+    };
 
     public static float GetInventoryLevel(string name)
     {
@@ -31,12 +34,6 @@ public static class SaveSystem
           return racoonGrease;
         case "anemoneSeeds":
           return anemoneSeeds;
-        case "x":
-          return player.x;
-        case "y":
-          return player.y;
-        case "z":
-          return player.z;
         default:
           Debug.Log("REEEEEE");
           return 0;
@@ -63,15 +60,6 @@ public static class SaveSystem
           break;
         case "anemoneSeeds":
           anemoneSeeds = (int)value;
-          break;
-        case "x":
-          player.x = value;
-          break;
-        case "y":
-          player.y = value;
-          break;
-        case "z":
-          player.z = value;
           break;
         default:
           Debug.Log("REEEEEE");
@@ -100,18 +88,19 @@ public static class SaveSystem
         case "anemoneSeeds":
           anemoneSeeds += value;
           return anemoneSeeds;
-        case "x":
-          player.x += value;
-          return player.x;
-        case "y":
-          player.y += value;
-          return player.y;
-        case "z":
-          player.z += value;
-          return player.z;
         default:
           Debug.Log("REEEEEE");
           return 0;
       }
+    }
+
+    public static Vector3 GetLastPosition() {
+      Vector3 lastPos = player[player.Count-1];
+      player.Remove(lastPos);
+      return lastPos;
+    }
+
+    public static void AddPositon(Vector3 value) {
+      player.Add(value);
     }
 }

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -18,6 +19,15 @@ public class PlayerController : MonoBehaviour
   {
     movePoint.parent = null;
   }
+
+  void Awake () {
+    if (SceneManager.GetActiveScene().name == "Main Gameplay") {
+      Vector3 pos = new Vector3(SaveSystem.GetInventoryLevel("x"),SaveSystem.GetInventoryLevel("y"),SaveSystem.GetInventoryLevel("z"));
+      gameObject.transform.position = pos;
+    }
+  }
+
+
   void Update()
   {
     xdist = movePoint.transform.position.x - gameObject.transform.position.x;

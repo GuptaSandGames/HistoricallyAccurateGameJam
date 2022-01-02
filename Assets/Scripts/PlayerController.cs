@@ -20,6 +20,13 @@ public class PlayerController : MonoBehaviour
     movePoint.parent = null;
   }
 
+  void Awake () {
+    if (SceneManager.GetActiveScene().name == "Main Gameplay") {
+      Vector3 pos = SaveSystem.GetLastPosition();
+      gameObject.transform.position = pos;
+    }
+  }
+
 
   void Update()
   {

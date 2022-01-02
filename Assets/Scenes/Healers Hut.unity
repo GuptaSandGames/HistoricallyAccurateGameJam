@@ -215,8 +215,8 @@ GameObject:
   m_Component:
   - component: {fileID: 289561365}
   - component: {fileID: 289561364}
-  - component: {fileID: 289561363}
   - component: {fileID: 289561366}
+  - component: {fileID: 289561363}
   m_Layer: 0
   m_Name: Crafting Table
   m_TagString: Untagged
@@ -412,7 +412,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 425660, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 425660, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
       propertyPath: m_LocalPosition.x

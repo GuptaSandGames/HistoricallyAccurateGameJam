@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Healers Hut.unity
     guid: 3697043ac7235aa4c96613def3cb54fc
+  - enabled: 1
+    path: Assets/Scenes/Crafting.unity
+    guid: be221fdb9c573e64fa06c1aa7bcce1c9
   m_configObjects: {}

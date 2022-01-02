@@ -71,6 +71,7 @@ namespace PixelCrushers
         private void OnTriggerEnter(Collider other)
         {
             if (!other.CompareTag(requiredTag)) return;
+
             UsePortal();
         }
 
@@ -79,6 +80,7 @@ namespace PixelCrushers
         private void OnTriggerEnter2D(Collider2D other)
         {
             if (!other.CompareTag(requiredTag)) return;
+            Debug.Log("YESSS");
             UsePortal();
         }
 

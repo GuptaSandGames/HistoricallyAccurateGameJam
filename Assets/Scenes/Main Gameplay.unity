@@ -9517,6 +9517,7 @@ GameObject:
   - component: {fileID: 1225751270}
   - component: {fileID: 1225751269}
   - component: {fileID: 1225751271}
+  - component: {fileID: 1225751272}
   m_Layer: 0
   m_Name: IMG_0692 (1)
   m_TagString: Untagged
@@ -9623,6 +9624,19 @@ PolygonCollider2D:
       - {x: 2.1322088, y: -1.5346351}
       - {x: 2.069992, y: -0.40117264}
       - {x: -0.6169443, y: 2.256927}
+--- !u!114 &1225751272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1225751268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97934c3bcb052b64ca17286230e25684, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextScene: LongHut Fever
 --- !u!1 &1357378404
 GameObject:
   m_ObjectHideFlags: 0

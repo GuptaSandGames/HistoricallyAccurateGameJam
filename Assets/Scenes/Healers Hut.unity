@@ -199,7 +199,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 198703571}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.86, y: 3.85, z: 0}
+  m_LocalPosition: {x: 0.76, y: 3.95, z: 0}
   m_LocalScale: {x: 0.2725, y: 0.2634, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -690,7 +690,7 @@ GameObject:
   - component: {fileID: 2010969361}
   - component: {fileID: 2010969364}
   m_Layer: 0
-  m_Name: table (1)
+  m_Name: reicipee tabel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

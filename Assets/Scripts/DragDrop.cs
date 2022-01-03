@@ -7,27 +7,38 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
 
   private RectTransform rectTransform;
   private CanvasGroup canvasGroup;
+  public Vector3 startPos = new Vector3(0f,0f,0f);
+  [SerializeField] private Canvas canvas;
 
-  private void Awake(){
+  private void Start() {
+    startPos = gameObject.transform.position;
+  }
+
+  private void Awake() {
     rectTransform = GetComponent<RectTransform>();
     canvasGroup = GetComponent<CanvasGroup>();
   }
-  public void OnBeginDrag(PointerEventData eventData){
-    Debug.Log("OnBeginDrag");
+
+  public void OnBeginDrag(PointerEventData eventData) {
     canvasGroup.blocksRaycasts = false;
+    Debug.Log("Begin");
   }
-  public void OnDrag(PointerEventData eventData){
-    Debug.Log("OnDrag");
-    rectTransform.anchoredPosition += eventData.delta;
+
+  public void OnDrag(PointerEventData eventData) {
+    rectTransform.anchoredPosition += eventData.delta / canvas.scaleFactor;
   }
-  public void OnEndDrag(PointerEventData eventData){
-    Debug.Log("OnEndDrag");
+
+  public void OnEndDrag(PointerEventData eventData) {
     canvasGroup.blocksRaycasts = true;
+    Debug.Log("End");
   }
-  public void OnPointerDown(PointerEventData eventData){
-    Debug.Log("OnPointerDown");
+
+  public void OnPointerDown(PointerEventData eventData) {
+
   }
-  public void OnDrop(PointerEventData eventData){
-    throw new System.NotImplementedException();
+
+  public void OnDrop(PointerEventData eventData) {
+    Debug.Log("Drop");
   }
+
 }

@@ -1,16 +1,25 @@
 fileFormatVersion: 2
-guid: 2eec4ad85f2606844bc42e7da18a8363
+guid: 9479481f8ff158e4fa555ee77f86ac68
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2233834848525475629
-    second: purple thing_0
+      213: 5195552749183287351
+    second: fences (1)_0
   - first:
-      213: 4795100778760549584
-    second: purple thing_1
+      213: 2287960328753103622
+    second: fences (1)_1
   - first:
-      213: 8104044447923163468
-    second: purple thing_2
+      213: -3194114880894972141
+    second: fences (1)_2
+  - first:
+      213: -7241402917394671139
+    second: fences (1)_3
+  - first:
+      213: 1335812813352274687
+    second: fences (1)_4
+  - first:
+      213: -7607930649562412582
+    second: fences (1)_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -172,12 +181,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: purple thing_0
+      name: fences (1)_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 16
-        width: 11
+        x: 6
+        y: 47
+        width: 3
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -186,20 +195,62 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d020c66a03dff0e0800000000000000
-      internalID: -2233834848525475629
+      spriteID: 730cfdab2bf4a1840800000000000000
+      internalID: 5195552749183287351
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: purple thing_1
+      name: fences (1)_1
       rect:
         serializedVersion: 2
-        x: 0
+        x: 29
+        y: 48
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 603c38ffbc770cf10800000000000000
+      internalID: 2287960328753103622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fences (1)_2
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 25
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31f477060793ca3d0800000000000000
+      internalID: -3194114880894972141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fences (1)_3
+      rect:
+        serializedVersion: 2
+        x: 8
         y: 0
-        width: 11
-        height: 16
+        width: 23
+        height: 22
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -207,20 +258,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d4b834b0ce9b8240800000000000000
-      internalID: 4795100778760549584
+      spriteID: dd99639c96e518b90800000000000000
+      internalID: -7241402917394671139
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: purple thing_2
+      name: fences (1)_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 32
-        width: 11
-        height: 2
+        x: 44
+        y: 0
+        width: 17
+        height: 23
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -228,8 +279,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c41df620d79577070800000000000000
-      internalID: 8104044447923163468
+      spriteID: ffa07422da2c98210800000000000000
+      internalID: 1335812813352274687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fences (1)_5
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 25
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad9860df1633b6690800000000000000
+      internalID: -7607930649562412582
       vertices: []
       indices: 
       edges: []

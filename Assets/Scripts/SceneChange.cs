@@ -23,6 +23,10 @@ public class SceneChange : MonoBehaviour {
         Vector3 pos = other.gameObject.transform.position + new Vector3 (1f,0f,0f);
         SaveSystem.AddPositon(pos);
       }
+      if(nextScene =="LongHut Fever"){
+        Vector3 pos = other.gameObject.transform.position + new Vector3 (0f,1f,0f);
+        SaveSystem.AddPositon(pos);
+      }
     }
   }
 }

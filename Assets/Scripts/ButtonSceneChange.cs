@@ -3,10 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class ButtonSceneChange : MonoBehaviour
-{
-  public void MoveToScene(int sceneID)
-  {
+public class ButtonSceneChange : MonoBehaviour{
+  public void MoveToScene(int sceneID){
     SceneManager.LoadScene(sceneID);
+    }
   }
-}

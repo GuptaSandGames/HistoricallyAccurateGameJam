@@ -10,7 +10,7 @@ public class ItemSnap : MonoBehaviour, IDropHandler{
       if (eventData.pointerDrag.name == ghghj) {
         if (ghghj == "Spoooooon"){
           eventData.pointerDrag.transform.position = eventData.pointerDrag.GetComponent<DragDrop>().startPos;
-          eventData.pointerDrag.GetComponent<Spoooooon>().isHoney = true;
+          eventData.pointerDrag.GetComponent<Spoooooon>().changeSpoon("Honey");
         } else {
           eventData.pointerDrag.GetComponent<RectTransform>().anchoredPosition = GetComponent<RectTransform>().anchoredPosition;
         }

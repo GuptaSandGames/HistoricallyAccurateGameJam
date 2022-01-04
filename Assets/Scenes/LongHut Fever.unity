@@ -151,10 +151,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 144787432}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 97934c3bcb052b64ca17286230e25684, type: 3}
+  m_Script: {fileID: 11500000, guid: dcdbad56c2ea31c4ea744085e84795e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextScene: Main Gameplay
+  scenename: Main Gameplay
+  pointname: WaypointFeverhut
 --- !u!61 &144787434
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -244,7 +245,7 @@ Transform:
   m_LocalScale: {x: 18.001686, y: 23.322332, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &460264230
 GameObject:
@@ -353,7 +354,7 @@ Transform:
   m_LocalScale: {x: 1.4916888, y: 1.8041896, z: 1.4139}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &630984061
 PrefabInstance:
@@ -368,7 +369,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7753912035908355113, guid: fabce8d8441dfc74c845c3be7b960ac4, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7753912035908355113, guid: fabce8d8441dfc74c845c3be7b960ac4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -412,6 +413,63 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fabce8d8441dfc74c845c3be7b960ac4, type: 3}
+--- !u!1001 &914507790
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8360481760926681359, guid: bac745106fc3613469a3463f1c7fed1e, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8360481760926681359, guid: bac745106fc3613469a3463f1c7fed1e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8360481760926681359, guid: bac745106fc3613469a3463f1c7fed1e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8360481760926681359, guid: bac745106fc3613469a3463f1c7fed1e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8360481760926681359, guid: bac745106fc3613469a3463f1c7fed1e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8360481760926681359, guid: bac745106fc3613469a3463f1c7fed1e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8360481760926681359, guid: bac745106fc3613469a3463f1c7fed1e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8360481760926681359, guid: bac745106fc3613469a3463f1c7fed1e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8360481760926681359, guid: bac745106fc3613469a3463f1c7fed1e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8360481760926681359, guid: bac745106fc3613469a3463f1c7fed1e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8360481760926681359, guid: bac745106fc3613469a3463f1c7fed1e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8360481760926850095, guid: bac745106fc3613469a3463f1c7fed1e, type: 3}
+      propertyPath: m_Name
+      value: Dialogue Manager
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bac745106fc3613469a3463f1c7fed1e, type: 3}
 --- !u!1 &1427415136
 GameObject:
   m_ObjectHideFlags: 0

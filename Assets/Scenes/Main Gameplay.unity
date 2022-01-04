@@ -151,7 +151,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 895874727}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &62970702
 GameObject:
@@ -32456,6 +32456,36 @@ PolygonCollider2D:
       - {x: -30.99278, y: 23.882309}
       - {x: -31.061924, y: -24.823448}
       - {x: 33.948494, y: -25.12873}
+--- !u!1 &804823931
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 804823932}
+  m_Layer: 0
+  m_Name: WaypointFeverHUT
+  m_TagString: Untagged
+  m_Icon: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &804823932
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 804823931}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.53, y: -2.55, z: -40.303253}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 895874727}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &815348285
 GameObject:
   m_ObjectHideFlags: 0
@@ -34134,6 +34164,7 @@ Transform:
   m_LocalPosition: {x: 2.431055, y: 0.013906721, z: -192.65944}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 804823932}
   - {fileID: 59056421}
   m_Father: {fileID: 0}
   m_RootOrder: 4
@@ -34270,10 +34301,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1225751268}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 97934c3bcb052b64ca17286230e25684, type: 3}
+  m_Script: {fileID: 11500000, guid: dcdbad56c2ea31c4ea744085e84795e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextScene: LongHut Fever
+  scenename: LongHut Fever
+  pointname: 
 --- !u!1 &1357378404
 GameObject:
   m_ObjectHideFlags: 0
@@ -34573,8 +34605,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1440709824}
   - component: {fileID: 1440709823}
-  - component: {fileID: 1440709826}
   - component: {fileID: 1440709825}
+  - component: {fileID: 1440709826}
   m_Layer: 0
   m_Name: IMG_0694_0
   m_TagString: Untagged
@@ -34693,10 +34725,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1440709822}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 97934c3bcb052b64ca17286230e25684, type: 3}
+  m_Script: {fileID: 11500000, guid: dcdbad56c2ea31c4ea744085e84795e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextScene: Healers Hut
+  scenename: Healers Hut
+  pointname: 
 --- !u!1 &1573996218
 GameObject:
   m_ObjectHideFlags: 0

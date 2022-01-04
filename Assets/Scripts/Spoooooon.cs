@@ -5,11 +5,11 @@ using UnityEngine.UI;
 
 public class Spoooooon : MonoBehaviour
 {
-  public Sprite sadSpoon;
-  public Sprite honeySpoon;
-  public Sprite fatSpoon;
-  public bool isHoney = false;
-  private Image img;
+    public Sprite sadSpoon;
+    public Sprite honeySpoon;
+    public Sprite fatSpoon;
+    public bool isHoney = false;
+    private Image img;
     void Start()
     {
       img = gameObject.GetComponent<Image>();
@@ -24,6 +24,11 @@ public class Spoooooon : MonoBehaviour
         Debug.Log("?");
         img.sprite = honeySpoon;
         gameObject.name = "honeySpoon";
+      }
+      if (type == "Sad") {
+        Debug.Log("?");
+        img.sprite = sadSpoon;
+        gameObject.name = "Spoooooon";
       }
     }
 }

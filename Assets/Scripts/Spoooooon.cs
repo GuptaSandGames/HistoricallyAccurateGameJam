@@ -12,6 +12,8 @@ public class Spoooooon : MonoBehaviour
 
     void Update()
     {
-
+      if(isHoney == true){
+        Debug.Log("HONEYYYY");
+      }
     }
 }

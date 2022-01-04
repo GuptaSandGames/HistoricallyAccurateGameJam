@@ -14,10 +14,7 @@ public static class SaveSystem
     public static int feverRemedy = 0;
     public static int toothachRemedy = 0;
     public static int gashRemedy = 0;
-    public static List<Vector3> player = new List<Vector3>() {
-      new Vector3(0f,-6f,0f)
-    };
-
+    
     public static float GetInventoryLevel(string name)
     {
       switch (name)
@@ -92,15 +89,5 @@ public static class SaveSystem
           Debug.Log("REEEEEE");
           return 0;
       }
-    }
-
-    public static Vector3 GetLastPosition() {
-      Vector3 lastPos = player[player.Count-1];
-      player.Remove(lastPos);
-      return lastPos;
-    }
-
-    public static void AddPositon(Vector3 value) {
-      player.Add(value);
     }
 }

@@ -11,10 +11,10 @@ public static class SaveSystem
     public static int brandy = 5;
     public static int racoonGrease = 5;
     public static int anemoneSeeds = 5;
-    public static int feverRemedy = 0;
+    public static int feverRemedy = 5;
     public static int toothachRemedy = 0;
     public static int gashRemedy = 0;
-    
+
     public static float GetInventoryLevel(string name)
     {
       switch (name)
@@ -85,6 +85,9 @@ public static class SaveSystem
         case "anemoneSeeds":
           anemoneSeeds += value;
           return anemoneSeeds;
+        case "feverRemedy":
+          feverRemedy += value;
+          return feverRemedy;
         default:
           Debug.Log("REEEEEE");
           return 0;

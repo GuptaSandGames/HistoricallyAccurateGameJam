@@ -8,6 +8,9 @@ public class ItemSnap : MonoBehaviour, IDropHandler {
   public string hasLiquid;
   public string[] accept;
   public GameObject inMe;
+  public Vector3 pos;
+  public int counter = 0;
+  public float amount = 0;
 
   public void OnDrop(PointerEventData eventData) {
     if (eventData.pointerDrag != null) {
@@ -24,10 +27,38 @@ public class ItemSnap : MonoBehaviour, IDropHandler {
           }
           eventData.pointerDrag.transform.position = eventData.pointerDrag.GetComponent<DragDrop>().startPos;
         } else {
+          inMe = eventData.pointerDrag;
+          pos = inMe.transform.position;
           eventData.pointerDrag.GetComponent<RectTransform>().anchoredPosition = GetComponent<RectTransform>().anchoredPosition;
         }
       } else {
         eventData.pointerDrag.transform.position = eventData.pointerDrag.GetComponent<DragDrop>().startPos;
+      }
+    }
+  }
+
+  void Update() {
+    if (inMe != null) {
+      if (inMe.GetComponent<RectTransform>().anchoredPosition == GetComponent<RectTransform>().anchoredPosition) {
+      } else {
+        inMe = null;
+      }
+    }
+  }
+
+  public void AddCounter() {
+    if (inMe != null) {
+      counter += 1;
+      if (counter > 2) {
+        if (inMe.name == "Roots") {
+          inMe.name = "ground roots";
+          counter = 0;
+        } else if (inMe.name == "ground roots" && hasLiquid == "honey") {
+          hasLiquid = "";
+          counter = 0;
+          inMe.name = "fever cure";
+          amount = SaveSystem.ModifyValue("feverRemedy",1);
+        }
       }
     }
   }

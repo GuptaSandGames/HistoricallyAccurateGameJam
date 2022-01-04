@@ -245,6 +245,9 @@ MonoBehaviour:
   - Roots
   - honeySpoon
   inMe: {fileID: 0}
+  pos: {x: 0, y: 0, z: 0}
+  counter: 0
+  amount: 5
 --- !u!114 &142251841
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -502,6 +505,9 @@ MonoBehaviour:
   hasLiquid: 
   accept: []
   inMe: {fileID: 0}
+  pos: {x: 0, y: 0, z: 0}
+  counter: 0
+  amount: 5
 --- !u!1 &1199901324
 GameObject:
   m_ObjectHideFlags: 0
@@ -1179,6 +1185,9 @@ MonoBehaviour:
   accept:
   - Spoooooon
   inMe: {fileID: 0}
+  pos: {x: 0, y: 0, z: 0}
+  counter: 0
+  amount: 5
 --- !u!1 &2060698131
 GameObject:
   m_ObjectHideFlags: 0
@@ -1279,6 +1288,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ec3d21058a265045b217a3d563e6d69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mortar: {fileID: 142251840}
   anim: {fileID: 2060698134}
 --- !u!222 &2060698136
 CanvasRenderer:

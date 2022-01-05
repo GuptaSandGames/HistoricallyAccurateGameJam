@@ -24,11 +24,9 @@ public class ROOOTS : MonoBehaviour
       }
       if(gameObject.name == "ground"){
         image.sprite = ground;
-        image.color = new Color32(0,255,0,255);
       }
       if(gameObject.name == "unground"){
         image.sprite = unground;
-        image.color = new Color32(0,0,255,255);
       }
     }
 }

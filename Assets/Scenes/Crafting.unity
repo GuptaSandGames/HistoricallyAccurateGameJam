@@ -242,7 +242,7 @@ MonoBehaviour:
   hasLiquid: 
   accept:
   - Spoooooon
-  - Roots
+  - unground
   - honeySpoon
   inMe: {fileID: 0}
   pos: {x: 0, y: 0, z: 0}
@@ -1003,8 +1003,9 @@ GameObject:
   - component: {fileID: 1822636026}
   - component: {fileID: 1822636028}
   - component: {fileID: 1822636029}
+  - component: {fileID: 1822636030}
   m_Layer: 5
-  m_Name: Roots
+  m_Name: unground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1093,6 +1094,22 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
+--- !u!114 &1822636030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1822636024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a428a03e4731d064f8b8fbe24b2d2ef5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unground: {fileID: 0}
+  ground: {fileID: 0}
+  feverCure: {fileID: 0}
+  image: {fileID: 1822636026}
 --- !u!1 &1873913673
 GameObject:
   m_ObjectHideFlags: 0

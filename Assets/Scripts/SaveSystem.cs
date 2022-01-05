@@ -11,7 +11,7 @@ public static class SaveSystem
     public static int brandy = 5;
     public static int racoonGrease = 5;
     public static int anemoneSeeds = 5;
-    public static int feverRemedy = 5;
+    public static int feverRemedy = 0;
     public static int toothachRemedy = 0;
     public static int gashRemedy = 0;
 

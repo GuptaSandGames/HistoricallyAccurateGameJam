@@ -50,14 +50,16 @@ public class ItemSnap : MonoBehaviour, IDropHandler {
     if (inMe != null) {
       counter += 1;
       if (counter > 2) {
-        if (inMe.name == "Roots") {
-          inMe.name = "ground roots";
+        if (inMe.name == "unground") {
+          inMe.name = "ground";
           counter = 0;
-        } else if (inMe.name == "ground roots" && hasLiquid == "honey") {
+        } else if (inMe.name == "ground" && hasLiquid == "honey") {
           hasLiquid = "";
           counter = 0;
-          inMe.name = "fever cure";
+          inMe.name = "feverCure";
           amount = SaveSystem.ModifyValue("feverRemedy",1);
+          inMe.transform.position = inMe.GetComponent<DragDrop>().startPos;
+          inMe = null;
         }
       }
     }

@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 935899b62f48ae5498594680ed17d133, type: 3}
-  m_Name: Dialogue Database
+  m_Name: Dialogue Database (Auto-Backup)
   m_EditorClassIdentifier: 
   version: 
   author: 
@@ -1899,7 +1899,7 @@ MonoBehaviour:
       - originConversationID: 2
         originDialogueID: 7
         destinationConversationID: 2
-        destinationDialogueID: 9
+        destinationDialogueID: 8
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -1911,6 +1911,55 @@ MonoBehaviour:
         serializedVersion: 2
         x: 436
         y: 237
+        width: 160
+        height: 30
+    - id: 8
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 3
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Thank You, Healer
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 2
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks: []
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 436
+        y: 287
         width: 160
         height: 30
     - id: 9
@@ -1958,8 +2007,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 338.14633
-        y: 344.09756
+        x: 254
+        y: 288
         width: 160
         height: 30
     entryGroups: []

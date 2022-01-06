@@ -147,7 +147,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8b685e62a9aeb4a9472b30ec2d86d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialDatabase: {fileID: 11400000, guid: 098f8edc65f6e6f4a9f7433b865abe13, type: 2}
+  initialDatabase: {fileID: 11400000, guid: 275886c40299daf448277ee6e9e68e5b, type: 2}
   displaySettings:
     conversationOverrideSettings:
       useOverrides: 0
@@ -173,7 +173,7 @@ MonoBehaviour:
       cancelConversation:
         key: 27
         buttonName: 
-    dialogueUI: {fileID: 101180, guid: 5ba51781a19f8a843abeb2d304d0d26e, type: 3}
+    dialogueUI: {fileID: 4000056342716643059, guid: e4a3bc61064c40e4296160fcf4157648, type: 3}
     defaultCanvas: {fileID: 8360481760914972207}
     localizationSettings:
       language: 

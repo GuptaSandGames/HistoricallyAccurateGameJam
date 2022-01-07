@@ -23,12 +23,12 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: 
-    guid: 00000000000000000000000000000000
+    path: Assets/Scenes/3 Recipie Book 3.unity
+    guid: 6bd8ea3295479c64a9c84b67d3356e16
+  - enabled: 1
+    path: Assets/Scenes/2 Recipie Book 2.unity
+    guid: 601a751d01dc2834d9556e393e477cae
   - enabled: 1
     path: Assets/Scenes/LongHut Fever.unity
     guid: 4b605c832b45f0f4d93b66e8c4b6de83

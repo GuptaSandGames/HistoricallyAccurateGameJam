@@ -33,6 +33,13 @@ public class Pestle : MonoBehaviour
         anim.ResetTrigger("Left");
       }
     }
+    //Pestle Sound
+    void pestle(){
+     AkSoundEngine.PostEvent("Mortar", gameObject);
+    }
+    void pestlestop(){
+           AkSoundEngine.PostEvent("Mortar_stop", gameObject);
+    }
 
 
 }

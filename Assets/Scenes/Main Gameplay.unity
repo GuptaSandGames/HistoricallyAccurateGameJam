@@ -34301,9 +34301,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1225751268}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dcdbad56c2ea31c4ea744085e84795e6, type: 3}
+  m_Script: {fileID: 11500000, guid: 544c308bb34541f4d970762b37b42413, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scenename: LongHut Fever
+  pointname: 
 --- !u!1 &1402791863
 GameObject:
   m_ObjectHideFlags: 3

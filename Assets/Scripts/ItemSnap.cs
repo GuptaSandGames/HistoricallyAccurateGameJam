@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using PixelCrushers.DialogueSystem;
 
 public class ItemSnap : MonoBehaviour, IDropHandler {
   public string hasLiquid;
@@ -45,7 +46,6 @@ public class ItemSnap : MonoBehaviour, IDropHandler {
       }
     }
   }
-
   public void AddCounter() {
     if (inMe != null) {
       counter += 1;
@@ -57,7 +57,7 @@ public class ItemSnap : MonoBehaviour, IDropHandler {
           hasLiquid = "";
           counter = 0;
           inMe.name = "feverCure";
-          amount = SaveSystem.ModifyValue("feverRemedy",1);
+          DialogueLua.SetVariable("FeverCure",1);
           inMe.transform.position = inMe.GetComponent<DragDrop>().startPos;
           inMe = null;
         }

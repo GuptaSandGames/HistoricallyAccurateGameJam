@@ -1107,9 +1107,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a428a03e4731d064f8b8fbe24b2d2ef5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  unground: {fileID: -2447197106452574010, guid: 660300891ef0469438c66cb8ca748abf, type: 3}
-  ground: {fileID: -251741297689194673, guid: 660300891ef0469438c66cb8ca748abf, type: 3}
-  feverCure: {fileID: 0}
+  unground: {fileID: -5672973765903603460, guid: c3498e29afba3f34aa106e998ba6b1d3, type: 3}
+  ground: {fileID: 1073764658171357957, guid: c3498e29afba3f34aa106e998ba6b1d3, type: 3}
+  feverCure: {fileID: 8745189005991409121, guid: c3498e29afba3f34aa106e998ba6b1d3, type: 3}
   image: {fileID: 1822636026}
 --- !u!1 &1873913673
 GameObject:

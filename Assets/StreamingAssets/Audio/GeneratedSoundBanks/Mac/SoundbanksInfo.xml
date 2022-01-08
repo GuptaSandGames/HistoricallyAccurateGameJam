@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>/Users/dillannhoyos/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Volumes/SSD2/Hackathonns/HistoricallyAccurateGameJam/HistoricallyAccurateGameJam_WwiseProject/</ProjectRoot>
+		<SourceFilesRoot>/Users/dillannhoyos/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Volumes/SSD2/Hackathonns/HistoricallyAccurateGameJam/HistoricallyAccurateGameJam_WwiseProject/.cache/Mac/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/dillannhoyos/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Volumes/SSD2/Hackathonns/HistoricallyAccurateGameJam/HistoricallyAccurateGameJam_WwiseProject/GeneratedSoundBanks/Mac/</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>/Users/dillannhoyos/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Volumes/SSD2/Hackathonns/HistoricallyAccurateGameJam/HistoricallyAccurateGameJam_WwiseProject/GeneratedSoundBanks/Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="2754342975">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3403396474" Language="SFX" Hash="190743032">
+			<ObjectPath>\SoundBanks\Default Work Unit\Newmain</ObjectPath>
+			<ShortName>Newmain</ShortName>
+			<Path>Newmain.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1866025847" Name="Footstep" ObjectPath="\Events\Default Work Unit\Footstep" DurationType="OneShot" DurationMin="0.288779" DurationMax="0.705905">
+					<IncludedMemoryFiles>
+						<File Id="31087701" Language="SFX">
+							<ShortName>BRS_Feet_Grass_Soft_Slow.wav</ShortName>
+							<Path>SFX/BRS_Feet_Grass_Soft_Slow_7C7323CA.wem</Path>
+						</File>
+						<File Id="67316411" Language="SFX">
+							<ShortName>BRS_Feet_Grass_Soft_Slow.wav</ShortName>
+							<Path>SFX/BRS_Feet_Grass_Soft_Slow_0B128814.wem</Path>
+						</File>
+						<File Id="649862240" Language="SFX">
+							<ShortName>BRS_Feet_Grass_Soft_Slow.wav</ShortName>
+							<Path>SFX/BRS_Feet_Grass_Soft_Slow_EDC15732.wem</Path>
+						</File>
+						<File Id="1032525622" Language="SFX">
+							<ShortName>BRS_Feet_Grass_Soft_Slow.wav</ShortName>
+							<Path>SFX/BRS_Feet_Grass_Soft_Slow_B82D9B12.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3601906838" Name="Mortar" ObjectPath="\Events\Default Work Unit\Mortar" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="535530733" Language="SFX">
+							<ShortName>BRS_Concrete_Drag_Grinds_Med_03.wav</ShortName>
+							<Path>SFX/BRS_Concrete_Drag_Grinds_Med_03_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1373693637" Name="Mortar_stop" ObjectPath="\Events\Default Work Unit\Mortar_stop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="417627684" Name="PlayMusic" ObjectPath="\Events\Default Work Unit\PlayMusic" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="994613150" Language="SFX">
+							<ShortName>Village music.wav</ShortName>
+							<Path>SFX/Village music_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2077253489" Name="root" ObjectPath="\Events\Default Work Unit\root" DurationType="OneShot" DurationMin="0.965986" DurationMax="0.965986">
+					<IncludedMemoryFiles>
+						<File Id="774429212" Language="SFX">
+							<ShortName>FF_WP_foley_pen_drop_twofold_messy.wav</ShortName>
+							<Path>SFX/FF_WP_foley_pen_drop_twofold_messy_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2482119603" Name="scoop" ObjectPath="\Events\Default Work Unit\scoop" DurationType="OneShot" DurationMin="0.292472" DurationMax="0.292472">
+					<IncludedMemoryFiles>
+						<File Id="1004148000" Language="SFX">
+							<ShortName>OS_TS_Scoop_Perc.wav</ShortName>
+							<Path>SFX/OS_TS_Scoop_Perc_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

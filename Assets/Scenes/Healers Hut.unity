@@ -981,7 +981,7 @@ PrefabInstance:
     - target: {fileID: 7753912035908355112, guid: fabce8d8441dfc74c845c3be7b960ac4, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: ad4ad0d75c6b9d2429fe6ee605d0f1bf, type: 3}
+      objectReference: {fileID: 21300000, guid: f8e37cde8af2ea84e8f22a5fc24a017a, type: 3}
     - target: {fileID: 7753912035908355112, guid: fabce8d8441dfc74c845c3be7b960ac4, type: 3}
       propertyPath: m_SortingOrder
       value: 3
@@ -992,11 +992,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7753912035908355113, guid: fabce8d8441dfc74c845c3be7b960ac4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7753912035908355113, guid: fabce8d8441dfc74c845c3be7b960ac4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1
+      value: -3
       objectReference: {fileID: 0}
     - target: {fileID: 7753912035908355113, guid: fabce8d8441dfc74c845c3be7b960ac4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3328,7 +3328,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.4771937, y: -0.46583176}
+  m_Offset: {x: 0.4771937, y: -0.7037115}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -3339,7 +3339,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.9543872, y: 1.0681705}
+  m_Size: {x: 1.9543872, y: 0.9861431}
   m_EdgeRadius: 0
 --- !u!4 &1286249232
 Transform:
@@ -3550,7 +3550,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.24995852}
+  m_Offset: {x: -0.47575998, y: -0.24995852}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -3561,7 +3561,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1.499917}
+  m_Size: {x: 1.4265432, y: 1.499917}
   m_EdgeRadius: 0
 --- !u!4 &1354263412
 Transform:
@@ -3681,7 +3681,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.24995852}
+  m_Offset: {x: 0.61520624, y: -0.24995852}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -3692,7 +3692,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1.499917}
+  m_Size: {x: 1.4101381, y: 1.499917}
   m_EdgeRadius: 0
 --- !u!4 &1937895885
 Transform:
@@ -3833,3 +3833,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ace94fdbe682e54cb6b1633179f8bac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  name: FeverCutscene
+  triggername: TriggerCutscene

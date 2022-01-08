@@ -160,6 +160,20 @@ MonoBehaviour:
       value: 
       type: 0
       typeString: 
+  - id: 6
+    fields:
+    - title: Name
+      value: EndingCutscene
+      type: 0
+      typeString: 
+    - title: Initial Value
+      value: False
+      type: 2
+      typeString: CustomFieldType_Boolean
+    - title: Description
+      value: 
+      type: 0
+      typeString: 
   conversations:
   - id: 1
     fields:
@@ -1990,8 +2004,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 0.68000126
+    canvasScrollPosition: {x: 12.283127, y: 275.05435}
+    canvasZoom: 1.010001
   - id: 2
     fields:
     - title: Title
@@ -2746,7 +2760,7 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks: []
       conditionsString: 
-      userScript: 
+      userScript: Variable["EndingCutscene"] = true
       onExecute:
         m_PersistentCalls:
           m_Calls: []

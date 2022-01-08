@@ -6,6 +6,8 @@ using PixelCrushers.DialogueSystem;
 
 public class cutscenes : MonoBehaviour
 {
+    public string name;
+    public string triggername;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,10 +17,10 @@ public class cutscenes : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-      bool trigger = DialogueLua.GetVariable("TriggerCutscene").AsBool;
+      bool trigger = DialogueLua.GetVariable(triggername).AsBool;
       if (trigger) {
-        DialogueLua.SetVariable("TriggerCutscene",false);
-        PixelCrushers.SaveSystem.LoadScene("FeverCutscene");
+        DialogueLua.SetVariable(triggername,false);
+        PixelCrushers.SaveSystem.LoadScene(name);
       }
     }
 }

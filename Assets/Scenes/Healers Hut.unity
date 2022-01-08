@@ -966,6 +966,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3742447274856597405, guid: fabce8d8441dfc74c845c3be7b960ac4, type: 3}
+      propertyPath: selectAt
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3742447274856597405, guid: fabce8d8441dfc74c845c3be7b960ac4, type: 3}
+      propertyPath: distanceFrom
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3742447274856597405, guid: fabce8d8441dfc74c845c3be7b960ac4, type: 3}
+      propertyPath: inRangeColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3742447274856597405, guid: fabce8d8441dfc74c845c3be7b960ac4, type: 3}
+      propertyPath: inRangeColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3742447274856597405, guid: fabce8d8441dfc74c845c3be7b960ac4, type: 3}
+      propertyPath: inRangeColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3742447274856597405, guid: fabce8d8441dfc74c845c3be7b960ac4, type: 3}
+      propertyPath: maxSelectionDistance
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4466768398653606128, guid: fabce8d8441dfc74c845c3be7b960ac4, type: 3}
       propertyPath: conversationEvents.onConversationEnd.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 

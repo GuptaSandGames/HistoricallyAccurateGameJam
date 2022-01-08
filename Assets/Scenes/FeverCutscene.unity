@@ -148,7 +148,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 378500149}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 2c73ca35fc46f98439eb0a5b508dc3d6, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 4634b0d5bcc842a4599adf53275c18fe, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -219,7 +219,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5a118499332f7d4db6b40c4bdebc429, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delayBeforeLoading: 11
+  delayBeforeLoading: 7
+  player: {fileID: 378500150}
   sceneNameToLoad: Healers Hut
 --- !u!114 &528403623
 MonoBehaviour:

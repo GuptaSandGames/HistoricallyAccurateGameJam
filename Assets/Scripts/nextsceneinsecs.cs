@@ -3,11 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-
+using UnityEngine.Video;
 public class nextsceneinsecs : MonoBehaviour
 {
     [SerializeField]
     private float delayBeforeLoading;
+    public VideoPlayer player;
     [SerializeField]
     private string sceneNameToLoad;
 
@@ -18,7 +19,7 @@ public class nextsceneinsecs : MonoBehaviour
     {
       timeElapsed += Time.deltaTime;
 
-      if(timeElapsed > delayBeforeLoading) {
+      if(timeElapsed > player.clip.length) {
         SceneManager.LoadScene(sceneNameToLoad);
       }
     }

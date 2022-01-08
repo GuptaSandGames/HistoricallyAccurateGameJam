@@ -334,7 +334,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delayBeforeLoading: 7
-  sceneNameToLoad: Healers Hut
+  player: {fileID: 1509760012}
+  sceneNameToLoad: Credits
 --- !u!114 &1248005977
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -441,7 +442,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1509760011}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 56bbdaa3361af1d469c1f49b3814a157, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: e2db389d88673834db4bcefa8c946ea2, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}

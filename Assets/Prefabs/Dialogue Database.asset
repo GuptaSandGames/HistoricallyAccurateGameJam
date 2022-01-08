@@ -2004,8 +2004,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 12.283127, y: 275.05435}
-    canvasZoom: 1.010001
+    canvasScrollPosition: {x: 0, y: 281.83005}
+    canvasZoom: 0.830001
   - id: 2
     fields:
     - title: Title
@@ -2766,8 +2766,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 763.2248
-        y: 280.86987
+        x: 765.9834
+        y: 282.24918
         width: 160
         height: 30
     - id: 16
@@ -2858,7 +2858,7 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks: []
       conditionsString: 
-      userScript: 
+      userScript: Variable["EndingCutscene"] = true
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -3034,8 +3034,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 89.875694, y: 0.28036523}
-    canvasZoom: 1.1199999
+    canvasScrollPosition: {x: 313.29025, y: 105.97644}
+    canvasZoom: 1.4499996
   - id: 3
     fields:
     - title: Title

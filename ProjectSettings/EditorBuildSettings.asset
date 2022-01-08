@@ -20,15 +20,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Healers Hut.unity
     guid: 3697043ac7235aa4c96613def3cb54fc
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: 
-    guid: 00000000000000000000000000000000
+    path: Assets/Scenes/FeverCutscene.unity
+    guid: c2d2992ccf629c748a9e4260a039be5e
   - enabled: 1
     path: Assets/Scenes/LongHut Fever.unity
     guid: 4b605c832b45f0f4d93b66e8c4b6de83
